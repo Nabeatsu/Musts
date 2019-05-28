@@ -94,12 +94,12 @@
 		55929431229DC66400EA7593 /* Musts */ = {
 			isa = PBXGroup;
 			children = (
+				5592945B229DCDB700EA7593 /* DataSources */,
+				5592945A229DCDB000EA7593 /* ViewModels */,
+				55929459229DCDA700EA7593 /* Views */,
 				55929432229DC66400EA7593 /* AppDelegate.swift */,
-				55929434229DC66400EA7593 /* ViewController.swift */,
 				55929439229DC66500EA7593 /* Assets.xcassets */,
-				5592943B229DC66500EA7593 /* LaunchScreen.storyboard */,
 				5592943E229DC66500EA7593 /* Info.plist */,
-				55929452229DC6EC00EA7593 /* ViewController.xib */,
 			);
 			path = Musts;
 			sourceTree = "<group>";
@@ -112,6 +112,54 @@
 				55929449229DC66500EA7593 /* Info.plist */,
 			);
 			path = MustsTests;
+			sourceTree = "<group>";
+		};
+		55929459229DCDA700EA7593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5592945E229DCE0200EA7593 /* Cells */,
+				5592945D229DCDED00EA7593 /* Storyboards */,
+				5592945C229DCDC600EA7593 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5592945A229DCDB000EA7593 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5592945B229DCDB700EA7593 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		5592945C229DCDC600EA7593 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55929434229DC66400EA7593 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5592945D229DCDED00EA7593 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5592943B229DC66500EA7593 /* LaunchScreen.storyboard */,
+				55929452229DC6EC00EA7593 /* ViewController.xib */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5592945E229DCE0200EA7593 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		980B941CE85BCFB066EB93AC /* Pods */ = {
